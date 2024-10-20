@@ -1,25 +1,78 @@
 {
   "cookies": [
     {
-      "name": "user",
-      "value": "4dbc5fab-ccc0-027b-c973-4e290c7556fd",
-      "domain": "demoblaze.com",
+      "name": "_ga",
+      "value": "GA1.1.939434347.1729447430",
+      "domain": ".brighthr.com",
       "path": "/",
-      "expires": -1,
+      "expires": 1764007431.411583,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
-      "name": "tokenp_",
-      "value": "dGVzdDE3MzAwNDY=",
-      "domain": "demoblaze.com",
+      "name": "__cf_bm",
+      "value": "lR5Xyx_85Xs3sSatPSMv2ycqgmlGpBQauOLh0DK3dZU-1729447425-1.0.1.1-9k4PXsu2fpkDPR05sEKoY5dbuyR28yIFBtT2EMCKFshQUyP.6ut9OzbHVjxH1OF9",
+      "domain": ".vimeo.com",
+      "path": "/",
+      "expires": 1729449230.611669,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_cfuvid",
+      "value": "3zF4SbgjfGZ0ASX8la6Gh7TuelT6thyUQCoUjhUI4Uw-1729447425447-0.0.1.1-604800000",
+      "domain": ".vimeo.com",
       "path": "/",
       "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "vuid",
+      "value": "pl243157994.1555811473",
+      "domain": ".vimeo.com",
+      "path": "/",
+      "expires": 1764007430.86455,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga_50B73T6JCW",
+      "value": "GS1.1.1729447429.1.0.1729447431.0.0.0",
+      "domain": ".brighthr.com",
+      "path": "/",
+      "expires": 1764007431.41142,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     }
   ],
-  "origins": []
+  "origins": [
+    {
+      "origin": "https://sandbox-app.brighthr.com",
+      "localStorage": [
+        {
+          "name": "clientId",
+          "value": "brighthr-webapp"
+        },
+        {
+          "name": "sessionId",
+          "value": "f4a47cac-a532-2e33-000b-a9d3c22be4cf"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.google.com",
+      "localStorage": [
+        {
+          "name": "rc::a",
+          "value": "MTljYTU4NTFieTVvaDI="
+        }
+      ]
+    }
+  ]
 }
