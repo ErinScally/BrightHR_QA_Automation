@@ -15,8 +15,17 @@ test.beforeAll(async ({browser}) =>{
 });
 
 // test.afterAll(async () => {
-//
-//     await page.close();
+//     await page.getByTestId('EditButton').first().click();
+//     await page.getByRole('link', { name: 'Delete employee record' }).click();
+//     await page.getByTestId('checkboxLabel').locator('svg').click();
+//     await page.getByRole('button', { name: 'Delete Another' }).click();
+//     await page.getByRole('button', { name: 'Return to employee hub' }).click();
+//     await page.getByTestId('EditButton').first().click();
+//     await page.getByRole('link', { name: 'Delete employee record' }).click();
+//     await page.getByTestId('checkboxLabel').locator('path').click();
+//     await page.getByTestId('EditButton').first().click();
+//     await page.getByRole('link', { name: 'Delete employee record' }).click();
+//     await page.getByTestId('checkboxLabel').locator('path').click();
 // });
 
 test('Add employee with full details and verify fields', async () => {
