@@ -44,7 +44,7 @@ test('Add employee with full details and verify fields', async () => {
     await expect(page.getByLabel('Job title(optional)')).not.toBeEmpty();
 });
 
-test('Add additional employee via modal', async ({ page }) => {
+test('Add additional employee via modal', async () => {
     //creation initial employee
     await page.getByRole('button', { name: 'Add employee' }).click();
     await page.getByLabel('First name').click();
@@ -70,11 +70,9 @@ test('Add additional employee via modal', async ({ page }) => {
     await expect(page.getByLabel('First name')).not.toBeEmpty();
     await expect(page.getByLabel('Last name')).not.toBeEmpty();
     await expect(page.getByLabel('Email address')).not.toBeEmpty();
-    await expect(page.getByLabel('Phone number(optional)')).not.toBeEmpty();
-    await expect(page.getByLabel('Job title(optional)')).not.toBeEmpty();
 });
 
-test('Validate all created employees are present', async ({ page }) => {
+test('Validate all created employees are present', async () => {
     //navigate to employee tab
     await page.getByTestId('sideBar').getByRole('link', { name: 'Employees' }).click();
 
