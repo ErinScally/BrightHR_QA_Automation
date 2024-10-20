@@ -1,7 +1,6 @@
 {
   "name": "brighthr_qa_automation",
   "version": "1.0.0",
-  "description": "We have a technical task that comprises two steps:",
   "main": "index.js",
   "scripts": {},
   "keywords": [],
