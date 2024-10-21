@@ -1,18 +1,17 @@
 # QA-Automation
 ## Description
-The purpose of this repository is to demostrate technical ability in accorance to the technical task set by Bright HR, it include blah blah blah 
+The purpose of this repository is to demonstrate technical ability in accordance to the technical task set by Bright HR.
 
 ## Set Up/Requirements
-- set up/requirements 
-set up repo/run it
+npx playwright install
+# Run  tests
+npx playwright test
+# Show Report
+npx playwright show-reportç
 
-//run locally
-how to run it
 
 ## Future Extensions
-- global config
+- global config/variables
 - additional tests?
 - other browsers
-- environments
-- accessibility
-- parameterised tests?
+- environments?
